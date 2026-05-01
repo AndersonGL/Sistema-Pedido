@@ -5,12 +5,9 @@ import './index.css'
 export const App = () => {
   return (
     <div className='container'>
-
-
-{  /* Primeiro componente- Container do pedido - Container - Card */}
-
-<OrderCard/>
-
+      {  /* Primeiro componente- Container do pedido - Container - Card */}
+      <OrderCard />
+      
     </div>
   )
 }
